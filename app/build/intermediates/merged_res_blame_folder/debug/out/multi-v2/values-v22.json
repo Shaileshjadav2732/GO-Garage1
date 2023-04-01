@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.gogarage1.app-mergeDebugResources-48:/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\s\\.gradle\\caches\\transforms-3\\7f32172e49657fd9946b5b5f9d929991\\transformed\\appcompat-1.6.1\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,487",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,482,764"
+                    }
+                }
+            ]
+        }
+    ]
+}
