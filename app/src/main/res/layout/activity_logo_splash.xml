@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/btn_gradient"
+    android:gravity="center"
+
+    tools:context=".logo_splash">
+
+    <TextView
+        android:id="@+id/gogaragelogo"
+        android:layout_width="wrap_content"
+        android:layout_height="521dp"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/gogaragelogo_" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation"
+        android:layout_width="377dp"
+        android:layout_height="109dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading_process" />
+
+</LinearLayout>
